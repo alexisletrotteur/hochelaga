@@ -1,0 +1,41 @@
+<ul class="list-group list-group-teaser list-group-object">
+  {{# listGroup}}
+  <li class="list-group-item">
+    {{# media.img}}
+    <div class="list-group-thumb mr-2">
+      <img src="{{ src }}" alt="{{ alt }}" class="img-fluid" />
+    </div>
+    {{/ media.img}}
+    <div class="list-group-item-body">
+      {{# type }}
+      <div class="list-group-item-type">{{ type }}</div>
+      {{/ type}}
+      <div class="list-group-item-title">{{ title }}</div>
+      {{# badge}}{{> components-etiquette}}{{/ badge}}
+      {{# infos }}
+      <div class="list-group-infos">
+        {{# infos.infos-items }}
+        <div class="list-group-item-infos">{{{ text }}}</div>
+        {{/ infos.infos-items }}
+      </div>
+      {{/ infos}}
+      {{# indicators}}
+      <div class="list-group-indicators">
+        {{# infos.infos-items }}
+        <div class="list-group-item-infos">{{{ text }}}</div>
+        {{/ infos.infos-items }}
+      </div>
+      {{/indicators}}
+    </div>
+    {{# actions}}
+    <div class="ml-2 ml-md-4 dropdown">
+      <button class="btn btn-tertiary btn-squared btn-icon" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Button aria label">
+        <span class="icon icon-more-vertical" aria-hidden="true"></span>
+      </button>
+      {{> components-dropdown}}
+    </div>
+    {{/actions}}
+  </li>
+  {{/ listGroup}}
+</ul>
+

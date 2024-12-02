@@ -1,0 +1,63 @@
+{
+  "listGroup": [
+    {
+      "url": "/lien-1",
+      "media": false,
+      "type": "Type de contenu",
+      "title": "At amet eos et diam sed no invidunt sadipscing no invidunt sed dolore eos amet",
+      "badge": {
+          "badge": "État",
+          "badgeClass": "badge-danger-light",
+          "badgeUrl": false
+        },
+      "infos": {
+        "infos-items": [
+          {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          },
+          {
+            "text": "Duis efficitur nibh vitae molestie fringilla"
+          }
+        ]
+      },
+      "actions": false
+    },
+    {
+      "url": "/lien-2",
+      "media": false,
+      "type": "Type de contenu",
+      "title": "Dolore amet aliquyam justo vero lorem accusam amet eos vero",
+      "badge": false,
+      "infos": {
+        "infos-items": [
+          {
+            "text": "Lorem ipsum"
+          },
+          {
+            "text": "Nam porta gravida euismod"
+          }
+        ]
+      },
+      "actions": false
+    },
+    {
+      "url": "/lien-3",
+      "media": false,
+      "type": "Type de contenu",
+      "title": "Consetetur eirmod et aliquyam",
+      "badge": {
+        "badge": "État",
+        "badgeClass": "badge-danger-light",
+        "badgeUrl": false
+      },
+      "infos": {
+        "infos-items": [
+          {
+            "text": "Lorem ipsum dolor sit amet."
+          }
+        ]
+      },
+      "actions": false
+    }
+  ]
+}
