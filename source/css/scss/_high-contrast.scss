@@ -1,0 +1,34 @@
+//
+
+@media (forced-colors: active) {
+
+  .icon::before {
+    //forced-color-adjust: none;
+    background-color: LinkText !important;
+  }
+
+  .accordeon-listed > .collapsible-item .collapsible-header button:after {
+    background-color: Highlight !important;
+  }
+
+  .btn-collapse.btn-link.collapsed:after, .btn-collapse.btn-tertiary.collapsed:after, .toast-action .btn-collapse.collapsed.btn:after {
+    background-color: Highlight !important;
+  }
+
+  .dropdown-toggle {
+    &:after,
+    &:before {
+      background-color: Highlight !important;
+    }
+  }
+
+  .user-avatar, .media-avatar, .media-profile {
+    // background-color: highlight !important;
+    border: 1px solid Highlight;
+  }
+
+  .badge-notification-dot:after {
+    forced-color-adjust: none;
+  }
+
+}
